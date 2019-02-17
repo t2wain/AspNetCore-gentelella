@@ -1,0 +1,25 @@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Fixed Footer";
+    ViewData["sidebar_class"] = "footer_fixed";
+}
+
+@section stylesheets_ext {
+<!-- jQuery custom content scroller -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.3/jquery.mCustomScrollbar.min.css" rel="stylesheet" />
+}
+
+<div class="right_col" role="main">
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>Fixed Footer <small> Just add class <strong>footer_fixed</strong></small></h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section javascripts_ext {
+<!-- jQuery custom content scroller -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.3/jquery.mCustomScrollbar.concat.min.js"></script>
+}
